@@ -5,12 +5,12 @@
 console.log("SOAL NOMOR 1 :");
 function int(angka) {
     let result = `{${angka}*`;
-    let hasil = angka;
+    let results = angka;
     for (let i = angka-1; i >= 1; i--) {
-        hasil *= i
+        results *= i
         i === 1 ? result +=`${i}}` : result += `${i}*`
     }
-    return `${result} = ${hasil}`
+    return `${result} = ${results}`
 };
 console.log(int(4));
 console.log(int(8));
